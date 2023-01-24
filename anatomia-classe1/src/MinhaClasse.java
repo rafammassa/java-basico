@@ -1,5 +1,5 @@
 public class MinhaClasse {
     public static void main(String[] args) {
-        System.out.print("Método executável, saída na tela.");
+        System.out.print("Método executável: saída na tela.");
     }
 }
