@@ -14,30 +14,15 @@ Tabuada de 5:
 */
 
 public class Loop5 {
-    public static void main(String[] args) throws Exception {
-        Scanner scan = new Scanner (System.in);
-        
-        int numero;
-        int contador = 1;
-        int resultado;
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
 
-        System.out.println("De qual número você deseja ver a tabuada? ");
-        numero = scan.nextInt();
-    
-        if (numero < 0 || numero > 10) {
-            System.out.println("VALOR INVÁLIDO!");
-        } else {
-            
-        
-            System.out.println("TABUADA DO " + numero);
+        System.out.println("Escolha um valor de 1 a 10: ");
+        int numero = scan.nextInt();
 
-            while (contador <= 10 && numero >=0 && numero <= 10) {
-                resultado = numero * contador;
-
-                System.out.println(numero + " x " + contador + " = " + resultado);
-
-                contador++;
-           }
-        }   
+        System.out.println("TABUADA DO " + numero);
+        for(int i = 1; i <= 10; i = i + 1) {
+            System.out.println(numero + " X " + i + " = " + (numero * i));
+        }
     }
 }
