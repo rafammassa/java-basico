@@ -1,4 +1,4 @@
-public class App {
+public class Calculadora {
     public static void soma (double num1, double num2) {
         double resultado = num1 + num2;
         System.out.println("A soma dos valores é igual a " + resultado);
