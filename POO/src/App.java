@@ -49,7 +49,7 @@ class Carro {
     public static void main(String[] args) {
         Carro carro1 = new Carro();
 
-        carro1.setCor("Azul");
+        carro1.setCor("Azul"); //usando set
         carro1.setModelo("BMW Serie 3");
         carro1.setCapacidadeTanque(59);
 
